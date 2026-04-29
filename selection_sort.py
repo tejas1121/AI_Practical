@@ -15,7 +15,7 @@ def main():
 		ele=int(input(f"ENTER ELEMENT {i}: "))
 		arr.append(ele)
 	while True:
-		print("\n\n\t**************MENU***************")
+		print("\n\n\t*************MENU**************")
 		print("\n\t1.SELECTION SORT\n\t2.EXIT")
 		choice=int(input("\n\tENTER YOUR CHOICE: "))
 		if choice==1:

@@ -21,7 +21,7 @@ def prims(graph,V,labels):
 		cost+=graph[x][y]
 		selected[y]=True
 		edges+=1
-	print("Total weight of MST: ",cost)
+	print("total weight of MST: ",cost)
 
 """
 	Vertices:
