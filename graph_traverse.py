@@ -50,9 +50,8 @@ def bfs(start):
 
 # -------- RUN --------
 print("\nDFS Traversal:")
-visited = []
-for i in range(V):
-    visited.append(False)
+visited = [False] * V
+
 
 dfs(0, visited)
 
