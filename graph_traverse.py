@@ -58,3 +58,13 @@ dfs(0, visited)
 
 print("\n\nBFS Traversal:")
 bfs(0)
+
+'''
+Enter the number of vertices: 5
+Enter the number of edges: 4
+Enter the edge (u v)
+0 1
+0 2
+1 3
+1 4
+'''
