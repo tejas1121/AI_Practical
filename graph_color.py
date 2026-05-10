@@ -9,7 +9,7 @@ def is_safe(v, graph, color, c, V):
     return True
 
 
-def solve(v, graph, color, m, V):
+def solve(v, graph, color, m, V, color_names):
 
     # all vertices colored
     if v == V:
@@ -18,7 +18,7 @@ def solve(v, graph, color, m, V):
 
         for i in range(V):
 
-            print("Vertex", i, "-> Color", color[i])
+            print("Vertex", i, "->", color_names[color[i]])
 
         return True
 
@@ -30,7 +30,7 @@ def solve(v, graph, color, m, V):
 
             color[v] = c
 
-            if solve(v + 1, graph, color, m, V):
+            if solve(v + 1, graph, color, m, V, color_names):
 
                 return True
 
@@ -55,4 +55,6 @@ m = 3
 
 color = [0] * V
 
-solve(0, graph, color, m, V)
+color_names = ["", "Red", "Green", "Blue"]
+
+solve(0, graph, color, m, V, color_names)
