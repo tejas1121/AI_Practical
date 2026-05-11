@@ -7,6 +7,7 @@ responses = {
     "how are you": "I'm just a bot, but I'm functioning perfectly!",
     "what is your name": "I am a simple customer service chatbot.",
     "thanks": "You're welcome! Let me know if you need more help.",
+    "help": "Sure! I can assist you with your inquiries. What do you need help with?",
     "bye": "Goodbye! Have a great day!"
 }
 
